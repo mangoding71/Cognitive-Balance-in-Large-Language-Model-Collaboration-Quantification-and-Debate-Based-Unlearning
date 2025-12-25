@@ -1,6 +1,8 @@
 # Cognitive Balance in Large Language Model Collaboration: Quantification and Debate-Based Unlearning
 
-This repository contains the implementation for the paper **"Cognitive Balance in Large Language Model Collaboration: Quantification and Debate-Based Unlearning"**. The research explores multi-agent debate frameworks to quantify cognitive orientations in LLMs and employs debate-based methods to calibrate and unlearn biases. The current version is a **demo release**. The complete codebase will be made publicly available upon official acceptance of the paper.
+This repository contains the implementation for the paper **"Cognitive Balance in Large Language Model Collaboration: Quantification and Debate-Based Unlearning"**. The research explores multi-agent debate frameworks to quantify cognitive orientations in LLMs and employs debate-based methods to calibrate and unlearn biases. 
+
+**The current version is a **demo release**. The complete codebase will be made publicly available upon official acceptance of the paper.**
 
 ## 📂 Repository Structure
 
