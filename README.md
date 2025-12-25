@@ -6,7 +6,7 @@ This repository contains the implementation for the paper **"Cognitive Balance i
 
 ```
 .
-├── data 			                   # Four datasets, including MMLU, TruthfulQA, MedMCQA, Scalr
+├── data                      # Four datasets, including MMLU, TruthfulQA, MedMCQA, Scalr
 ├── math_equivalence.py          # Utility for comparing mathematical expressions
 ├── main.py                      # Main debate simulation script
 ├── orientation_scoring_function.py  # BERT-based orientation scoring model
