@@ -3,8 +3,8 @@ import tiktoken
 from collections import defaultdict
 
 # ========== 配置 ==========
-JSONL_PATH = r"F:\博士工作\论文攥写\paper2\多智能体博弈代码\multiagent_debate\results\truthfulqa_leftist_gemini-2.0-flash\truthfulqa\adv_50_2_3\adv_truthfulqa_50_2_3_0.jsonl"
-MODEL_NAME = "gpt-4"   # 用作 tokenizer proxy
+JSONL_PATH = r"\results\truthfulqa_leftist_gemini-2.0-flash\truthfulqa\adv_50_2_3\adv_truthfulqa_50_2_3_0.jsonl"
+MODEL_NAME = "gpt-4"   
 # =========================
 
 enc = tiktoken.encoding_for_model(MODEL_NAME)
@@ -45,3 +45,4 @@ print("\n=== Average total tokens per turn ===")
 for turn in sorted(turn_total.keys()):
     avg = turn_total[turn] / n_samples
     print(f"Turn {turn+1}: {avg:.1f} tokens")
+
