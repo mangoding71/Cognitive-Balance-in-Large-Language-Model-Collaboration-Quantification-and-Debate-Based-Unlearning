@@ -9,7 +9,7 @@ This repository contains the implementation for the paper **"Cognitive Balance i
 ```
 .
 ├── data                        # Four datasets, including MMLU, TruthfulQA, MedMCQA, Scalr
-├──count_tokens.py              # Token counts are estimated using the GPT-4 tokenizer for consistency
+├── count_tokens.py              # Token counts are estimated using the GPT-4 tokenizer for consistency
 ├── math_equivalence.py          # Utility for comparing mathematical expressions
 ├── main.py                      # Main debate simulation script
 ├── orientation_scoring_function.py  # BERT-based orientation scoring model
